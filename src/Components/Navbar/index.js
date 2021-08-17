@@ -14,7 +14,7 @@ import {
   NavbarText
 } from 'reactstrap';
 
-const Example = (props) => {
+const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -36,11 +36,10 @@ const Example = (props) => {
               <NavLink href="https://github.com/reactstrap/reactstrap">Contact</NavLink>
             </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
     </div>
   );
 }
 
-export default Example;
+export default Navigation;
